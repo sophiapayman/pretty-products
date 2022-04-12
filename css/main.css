@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+  font-family: "Karma", serif;
+  line-height: 1.5;
+}
+
+display: flex;
+
+display: grid;
+
+body {
+
+}
+
+img {
+  max-width: 15em;
+}
+
+h2 {
+  font-family: "Oswald", sans-serf;
+  color: #6f00e7;
+  font-size: 2rem;
+}
