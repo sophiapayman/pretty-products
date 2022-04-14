@@ -1,15 +1,16 @@
 html {
   box-sizing: border-box;
-  font-family: "Karma", serif;
+  background-color: #fff;
+  font-family: Karma, serif;
   line-height: 1.5;
+  text-align: center;
 }
 
-display: flex;
-
-display: grid;
-
-body {
-
+ol {
+  display: grid;
+  padding: .5em 1.5rem .7em;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
 }
 
 img {
@@ -17,7 +18,71 @@ img {
 }
 
 h2 {
-  font-family: "Oswald", sans-serf;
+  font-family: Oswald, sans-serif;
   color: #6f00e7;
   font-size: 2rem;
+  align-items: flex-end;
+  text-align: center;
+}
+
+p {
+  font-size: 1.4rem;
+  color: #000;
+  font-family: Karma, serif;
+  font-weight: normal;
+  margin: 0;
+}
+
+ol > li {
+  padding: 1rem;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 3px solid #987ffa;
+  border-radius: 6px;
+}
+
+ul > li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.cart {
+  background-color: #6f00e7;
+  border-radius: 3em;
+  margin-right: auto;
+}
+
+.cart span {
+  color: #fff;
+  text-decoration: none;
+  font-family: Oswald, sans-serif;
+}
+
+.image {
+  width: 250px;
+  align-self: center;
+  padding: 1rem 0;
+}
+
+.favourite {
+  border: none;
+  justify-content: flex-end;
+}
+
+.share {
+  border: none;
+  justify-content: flex-end;
 }
