@@ -35,6 +35,7 @@ p {
 
 ol > li {
   padding: 1rem;
+  padding-left: 0;
   list-style-type: none;
   display: flex;
   flex-direction: column;
@@ -57,12 +58,14 @@ ul {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  padding-left: 0;
 }
 
 .cart {
   background-color: #6f00e7;
   border-radius: 3em;
   margin-right: auto;
+  padding: .5em 1.5rem .7em;
 }
 
 .cart span {
