@@ -15,6 +15,7 @@ ol {
 
 img {
   max-width: 15em;
+  margin: auto;
 }
 
 h2 {
@@ -23,6 +24,7 @@ h2 {
   font-size: 2rem;
   align-items: flex-end;
   text-align: center;
+  margin: 0;
 }
 
 p {
@@ -68,9 +70,10 @@ ul a {
 .cart {
   background-color: #6f00e7;
   border-radius: 3em;
-  margin-right: auto;
   margin: 1rem;
   padding: .5em 1.5rem .7em;
+  float: right;
+  margin-right: auto;
 }
 
 .cart span {
@@ -89,10 +92,12 @@ ul a {
   border: none;
   justify-content: flex-end;
   margin: 0 .25rem;
+  float: right;
 }
 
 .share {
   border: none;
   justify-content: flex-end;
   margin: 0 .25rem;
+  float: right;
 }
