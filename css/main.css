@@ -6,9 +6,18 @@ html {
   text-align: center;
 }
 
+main {
+  padding: .25em 1rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 ol {
   display: grid;
-  padding: .5em 1.5rem .7em;
+  padding: 0;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
 }
@@ -25,6 +34,7 @@ h2 {
   align-items: flex-end;
   text-align: center;
   margin: 0;
+  padding-top: 1.5rem;
 }
 
 p {
@@ -33,11 +43,12 @@ p {
   font-family: Karma, serif;
   font-weight: normal;
   margin: 0;
+  padding-bottom: 1.25rem;
 }
 
 ol > li {
-  padding: 1rem;
-  padding-left: 0;
+  padding: 0 1rem;
+  padding-left: 1rem;
   list-style-type: none;
   display: flex;
   flex-direction: column;
@@ -45,6 +56,7 @@ ol > li {
   align-items: center;
   border: 3px solid #987ffa;
   border-radius: 6px;
+  padding-top: .5rem;
 }
 
 ul > li {
@@ -91,13 +103,13 @@ ul a {
 .favourite {
   border: none;
   justify-content: flex-end;
-  margin: 0 .25rem;
+  margin: 0 .7rem;
   float: right;
 }
 
 .share {
   border: none;
   justify-content: flex-end;
-  margin: 0 .25rem;
+  margin: 0 .7rem;
   float: right;
 }
