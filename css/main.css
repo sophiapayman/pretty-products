@@ -48,7 +48,6 @@ ol > li {
 ul > li {
   list-style-type: none;
   display: flex;
-  justify-content: space-between;
   margin: 0;
   padding: 0;
   align-items: center;
@@ -56,15 +55,21 @@ ul > li {
 
 ul {
   display: flex;
-  justify-content: space-between;
   width: 100%;
   padding-left: 0;
+}
+
+ul a {
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 
 .cart {
   background-color: #6f00e7;
   border-radius: 3em;
   margin-right: auto;
+  margin: 1rem;
   padding: .5em 1.5rem .7em;
 }
 
@@ -83,9 +88,11 @@ ul {
 .favourite {
   border: none;
   justify-content: flex-end;
+  margin: 0 .25rem;
 }
 
 .share {
   border: none;
   justify-content: flex-end;
+  margin: 0 .25rem;
 }
